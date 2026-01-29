@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { UnifrakturMaguntia, Raleway } from "next/font/google";
-import "./globals.css";
+import "../styles/globals.css";
 
 const unifraktur = UnifrakturMaguntia({
   variable: "--font-unifrakturMaguntia",
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }:{children:React.ReactNode}) {
   return (
-    <html lang="pt-br">
+    <html lang="pt-br" suppressHydrationWarning>
       <body className={`${unifraktur.variable} ${raleway.variable}`}>
         {children}
       </body>

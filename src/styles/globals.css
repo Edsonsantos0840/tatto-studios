@@ -25,7 +25,7 @@ body {
   font-family: var(--font-sans) Arial, Helvetica, sans-serif;
 }
 
-@@layer utilities {
+@layer utilities {
   .gradientePrincipal {
     @apply bg-linear-to-b from-[#a90000] via-[#850000] to-[#b40000];
   }
