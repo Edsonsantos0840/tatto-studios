@@ -32,8 +32,8 @@ body {
 
   .gradienteCard {
     @apply bg-linear-to-b
-           from-[rgba(231,231,231,0.07)]
-           to-[rgba(141,141,141,0.86)];
+       from-[rgba(231,231,231,0.07)]
+       to-[rgba(141,141,141,0.86)];
   }
 
   .gradienteForm {
